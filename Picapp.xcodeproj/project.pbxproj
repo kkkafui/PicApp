@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		323E681FBB69CF92CABD3658 /* Pods_Picapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A21711B6839AE8B4FB261A7 /* Pods_Picapp.framework */; };
+		F6027F1F1F449FB200D74977 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6027F1E1F449FB200D74977 /* ProfileVC.swift */; };
+		F6027F231F44A78900D74977 /* CategoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6027F221F44A78900D74977 /* CategoryVC.swift */; };
+		F605AC671F4BC8A2005488E1 /* NetworkingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F605AC661F4BC8A2005488E1 /* NetworkingService.swift */; };
+		F615EE4B1F000F3C00CCB422 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F615EE4A1F000F3C00CCB422 /* CoreLocation.framework */; };
+		F6203A7B1EF8CCCC009DA09E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F6203A7A1EF8CCCC009DA09E /* GoogleService-Info.plist */; };
+		F621AC9D1F02FD190084E0B4 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F621AC9C1F02FD190084E0B4 /* MapKit.framework */; };
+		F66AB4681EF953B300618B34 /* EmailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66AB4671EF953B300618B34 /* EmailVC.swift */; };
+		F66AB46D1EFAA0CD00618B34 /* DecoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66AB46C1EFAA0CD00618B34 /* DecoView.swift */; };
+		F66AB4701EFAA1AD00618B34 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F66AB46F1EFAA1AD00618B34 /* Constants.swift */; };
+		F67946F51EF706DB00EF751A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67946F41EF706DB00EF751A /* AppDelegate.swift */; };
+		F67946FA1EF706DB00EF751A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67946F81EF706DB00EF751A /* Main.storyboard */; };
+		F67946FF1EF706DB00EF751A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F67946FD1EF706DB00EF751A /* LaunchScreen.storyboard */; };
+		F679470A1EF706DB00EF751A /* PicappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67947091EF706DB00EF751A /* PicappTests.swift */; };
+		F67947151EF706DB00EF751A /* PicappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67947141EF706DB00EF751A /* PicappUITests.swift */; };
+		F67F4CAA1F2BA8FD00AFEC1B /* EmailSignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F67F4CA91F2BA8FD00AFEC1B /* EmailSignInVC.swift */; };
+		F682B36C1F3C973900F4D558 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F682B36B1F3C973900F4D558 /* CategoryCell.swift */; };
+		F682B36E1F3C9C0500F4D558 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F682B36D1F3C9C0500F4D558 /* FeedVC.swift */; };
+		F682B3701F3CBB5100F4D558 /* GroupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F682B36F1F3CBB5100F4D558 /* GroupCell.swift */; };
+		F682B3721F3CBC2500F4D558 /* RestaurantVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F682B3711F3CBC2500F4D558 /* RestaurantVC.swift */; };
+		F69EB7FE1EFE4D68006AF288 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69EB7FD1EFE4D68006AF288 /* SignInVC.swift */; };
+		F6D480C31F22AD7B00C8BE1D /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D480C21F22AD7B00C8BE1D /* SearchVC.swift */; };
+		F6D480C51F22ADEF00C8BE1D /* ActivityVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D480C41F22ADEF00C8BE1D /* ActivityVC.swift */; };
+		F6D480C91F238AED00C8BE1D /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D480C81F238AED00C8BE1D /* SettingsVC.swift */; };
+		F6D480CB1F238CF400C8BE1D /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D480CA1F238CF400C8BE1D /* DesignableView.swift */; };
+		F6D480D11F25387700C8BE1D /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D480D01F25387700C8BE1D /* ButtonView.swift */; };
+		F6D480D91F2636BB00C8BE1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D480D81F2636BB00C8BE1D /* Assets.xcassets */; };
+		F6D480DB1F27F11E00C8BE1D /* FoodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D480DA1F27F11E00C8BE1D /* FoodCell.swift */; };
+		F6D480DD1F27F13400C8BE1D /* RestaurantCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D480DC1F27F13400C8BE1D /* RestaurantCell.swift */; };
+		F6D480E91F2810C200C8BE1D /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D480E81F2810C200C8BE1D /* ActivityCell.swift */; };
+		F6D480EB1F28220800C8BE1D /* LogoutCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D480EA1F28220800C8BE1D /* LogoutCell.swift */; };
+		F6D480ED1F28221E00C8BE1D /* AboutPicappCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D480EC1F28221E00C8BE1D /* AboutPicappCell.swift */; };
+		F6D480EF1F28223D00C8BE1D /* FeedbackCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D480EE1F28223D00C8BE1D /* FeedbackCell.swift */; };
+		F6D480F11F28225F00C8BE1D /* PrivacyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D480F01F28225F00C8BE1D /* PrivacyCell.swift */; };
+		F6D480F41F28F25800C8BE1D /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D480F31F28F25800C8BE1D /* DataService.swift */; };
+		F6D480F61F2A5CAD00C8BE1D /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D480F51F2A5CAD00C8BE1D /* EditProfileVC.swift */; };
+		F6F6429F1F447C2E007A0F67 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F6429E1F447C2E007A0F67 /* MenuVC.swift */; };
+		F6F642A11F448107007A0F67 /* MenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F642A01F448107007A0F67 /* MenuItemCell.swift */; };
+		F6F642A71F449AE6007A0F67 /* ProfCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6F642A61F449AE6007A0F67 /* ProfCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F67947061EF706DB00EF751A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F67946E91EF706DB00EF751A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F67946F01EF706DB00EF751A;
+			remoteInfo = Picapp;
+		};
+		F67947111EF706DB00EF751A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F67946E91EF706DB00EF751A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F67946F01EF706DB00EF751A;
+			remoteInfo = Picapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83A79F454B9E7BD19735901A /* Pods-Picapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Picapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Picapp/Pods-Picapp.debug.xcconfig"; sourceTree = "<group>"; };
+		9A21711B6839AE8B4FB261A7 /* Pods_Picapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Picapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DF3EB129CF06B4BABCCE8A8 /* Pods-Picapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Picapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-Picapp/Pods-Picapp.release.xcconfig"; sourceTree = "<group>"; };
+		F6027F1E1F449FB200D74977 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		F6027F221F44A78900D74977 /* CategoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryVC.swift; sourceTree = "<group>"; };
+		F605AC661F4BC8A2005488E1 /* NetworkingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingService.swift; sourceTree = "<group>"; };
+		F615EE4A1F000F3C00CCB422 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		F6203A7A1EF8CCCC009DA09E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F621AC9C1F02FD190084E0B4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F66AB4671EF953B300618B34 /* EmailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailVC.swift; sourceTree = "<group>"; };
+		F66AB46C1EFAA0CD00618B34 /* DecoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DecoView.swift; sourceTree = "<group>"; };
+		F66AB46F1EFAA1AD00618B34 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F67946F11EF706DB00EF751A /* Picapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Picapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F67946F41EF706DB00EF751A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F67946F91EF706DB00EF751A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F67946FE1EF706DB00EF751A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F67947001EF706DB00EF751A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F67947051EF706DB00EF751A /* PicappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F67947091EF706DB00EF751A /* PicappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicappTests.swift; sourceTree = "<group>"; };
+		F679470B1EF706DB00EF751A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F67947101EF706DB00EF751A /* PicappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F67947141EF706DB00EF751A /* PicappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicappUITests.swift; sourceTree = "<group>"; };
+		F67947161EF706DB00EF751A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F67F4CA91F2BA8FD00AFEC1B /* EmailSignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailSignInVC.swift; sourceTree = "<group>"; };
+		F682B36B1F3C973900F4D558 /* CategoryCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
+		F682B36D1F3C9C0500F4D558 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		F682B36F1F3CBB5100F4D558 /* GroupCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupCell.swift; sourceTree = "<group>"; };
+		F682B3711F3CBC2500F4D558 /* RestaurantVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantVC.swift; sourceTree = "<group>"; };
+		F69EB7FD1EFE4D68006AF288 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		F69EB7FF1EFF3E95006AF288 /* Picapp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Picapp.entitlements; sourceTree = "<group>"; };
+		F6D480C21F22AD7B00C8BE1D /* SearchVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
+		F6D480C41F22ADEF00C8BE1D /* ActivityVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityVC.swift; sourceTree = "<group>"; };
+		F6D480C81F238AED00C8BE1D /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		F6D480CA1F238CF400C8BE1D /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		F6D480D01F25387700C8BE1D /* ButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		F6D480D81F2636BB00C8BE1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6D480DA1F27F11E00C8BE1D /* FoodCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodCell.swift; sourceTree = "<group>"; };
+		F6D480DC1F27F13400C8BE1D /* RestaurantCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantCell.swift; sourceTree = "<group>"; };
+		F6D480E81F2810C200C8BE1D /* ActivityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityCell.swift; sourceTree = "<group>"; };
+		F6D480EA1F28220800C8BE1D /* LogoutCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogoutCell.swift; sourceTree = "<group>"; };
+		F6D480EC1F28221E00C8BE1D /* AboutPicappCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutPicappCell.swift; sourceTree = "<group>"; };
+		F6D480EE1F28223D00C8BE1D /* FeedbackCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackCell.swift; sourceTree = "<group>"; };
+		F6D480F01F28225F00C8BE1D /* PrivacyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyCell.swift; sourceTree = "<group>"; };
+		F6D480F31F28F25800C8BE1D /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		F6D480F51F2A5CAD00C8BE1D /* EditProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		F6F6429E1F447C2E007A0F67 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		F6F642A01F448107007A0F67 /* MenuItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuItemCell.swift; sourceTree = "<group>"; };
+		F6F642A61F449AE6007A0F67 /* ProfCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F67946EE1EF706DB00EF751A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F615EE4B1F000F3C00CCB422 /* CoreLocation.framework in Frameworks */,
+				F621AC9D1F02FD190084E0B4 /* MapKit.framework in Frameworks */,
+				323E681FBB69CF92CABD3658 /* Pods_Picapp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F67947021EF706DB00EF751A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F679470D1EF706DB00EF751A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		552E0C4D8143277F79986919 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F621AC9C1F02FD190084E0B4 /* MapKit.framework */,
+				F615EE4A1F000F3C00CCB422 /* CoreLocation.framework */,
+				9A21711B6839AE8B4FB261A7 /* Pods_Picapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82F011B3D1BA69606B0C73FB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83A79F454B9E7BD19735901A /* Pods-Picapp.debug.xcconfig */,
+				9DF3EB129CF06B4BABCCE8A8 /* Pods-Picapp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F66AB4691EFAA04C00618B34 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F66AB46A1EFAA05400618B34 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F66AB46C1EFAA0CD00618B34 /* DecoView.swift */,
+				F6D480D01F25387700C8BE1D /* ButtonView.swift */,
+				F6D480DA1F27F11E00C8BE1D /* FoodCell.swift */,
+				F6D480DC1F27F13400C8BE1D /* RestaurantCell.swift */,
+				F6D480E81F2810C200C8BE1D /* ActivityCell.swift */,
+				F6D480EA1F28220800C8BE1D /* LogoutCell.swift */,
+				F6D480EC1F28221E00C8BE1D /* AboutPicappCell.swift */,
+				F6D480EE1F28223D00C8BE1D /* FeedbackCell.swift */,
+				F6D480F01F28225F00C8BE1D /* PrivacyCell.swift */,
+				F682B36B1F3C973900F4D558 /* CategoryCell.swift */,
+				F682B36F1F3CBB5100F4D558 /* GroupCell.swift */,
+				F6F642A01F448107007A0F67 /* MenuItemCell.swift */,
+				F6F642A61F449AE6007A0F67 /* ProfCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F66AB46B1EFAA05A00618B34 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F69EB7FD1EFE4D68006AF288 /* SignInVC.swift */,
+				F66AB4671EF953B300618B34 /* EmailVC.swift */,
+				F67F4CA91F2BA8FD00AFEC1B /* EmailSignInVC.swift */,
+				F682B36D1F3C9C0500F4D558 /* FeedVC.swift */,
+				F6D480C21F22AD7B00C8BE1D /* SearchVC.swift */,
+				F6D480C41F22ADEF00C8BE1D /* ActivityVC.swift */,
+				F6027F1E1F449FB200D74977 /* ProfileVC.swift */,
+				F6D480C81F238AED00C8BE1D /* SettingsVC.swift */,
+				F6D480F51F2A5CAD00C8BE1D /* EditProfileVC.swift */,
+				F682B3711F3CBC2500F4D558 /* RestaurantVC.swift */,
+				F6F6429E1F447C2E007A0F67 /* MenuVC.swift */,
+				F6027F221F44A78900D74977 /* CategoryVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F66AB46E1EFAA17900618B34 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				F66AB46F1EFAA1AD00618B34 /* Constants.swift */,
+				F6D480CA1F238CF400C8BE1D /* DesignableView.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		F67946E81EF706DB00EF751A = {
+			isa = PBXGroup;
+			children = (
+				F67946F31EF706DB00EF751A /* Picapp */,
+				F67947081EF706DB00EF751A /* PicappTests */,
+				F67947131EF706DB00EF751A /* PicappUITests */,
+				F67946F21EF706DB00EF751A /* Products */,
+				82F011B3D1BA69606B0C73FB /* Pods */,
+				552E0C4D8143277F79986919 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F67946F21EF706DB00EF751A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F67946F11EF706DB00EF751A /* Picapp.app */,
+				F67947051EF706DB00EF751A /* PicappTests.xctest */,
+				F67947101EF706DB00EF751A /* PicappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F67946F31EF706DB00EF751A /* Picapp */ = {
+			isa = PBXGroup;
+			children = (
+				F6D480F21F28F1BA00C8BE1D /* Service */,
+				F69EB7FF1EFF3E95006AF288 /* Picapp.entitlements */,
+				F66AB46E1EFAA17900618B34 /* Utilities */,
+				F66AB46A1EFAA05400618B34 /* View */,
+				F66AB46B1EFAA05A00618B34 /* Controller */,
+				F66AB4691EFAA04C00618B34 /* Model */,
+				F67946F41EF706DB00EF751A /* AppDelegate.swift */,
+				F67946F81EF706DB00EF751A /* Main.storyboard */,
+				F6D480D81F2636BB00C8BE1D /* Assets.xcassets */,
+				F67946FD1EF706DB00EF751A /* LaunchScreen.storyboard */,
+				F67947001EF706DB00EF751A /* Info.plist */,
+				F6203A7A1EF8CCCC009DA09E /* GoogleService-Info.plist */,
+			);
+			path = Picapp;
+			sourceTree = "<group>";
+		};
+		F67947081EF706DB00EF751A /* PicappTests */ = {
+			isa = PBXGroup;
+			children = (
+				F67947091EF706DB00EF751A /* PicappTests.swift */,
+				F679470B1EF706DB00EF751A /* Info.plist */,
+			);
+			path = PicappTests;
+			sourceTree = "<group>";
+		};
+		F67947131EF706DB00EF751A /* PicappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F67947141EF706DB00EF751A /* PicappUITests.swift */,
+				F67947161EF706DB00EF751A /* Info.plist */,
+			);
+			path = PicappUITests;
+			sourceTree = "<group>";
+		};
+		F6D480F21F28F1BA00C8BE1D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F6D480F31F28F25800C8BE1D /* DataService.swift */,
+				F605AC661F4BC8A2005488E1 /* NetworkingService.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F67946F01EF706DB00EF751A /* Picapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F67947191EF706DC00EF751A /* Build configuration list for PBXNativeTarget "Picapp" */;
+			buildPhases = (
+				0B2863B7213549986529EC26 /* [CP] Check Pods Manifest.lock */,
+				F67946ED1EF706DB00EF751A /* Sources */,
+				F67946EE1EF706DB00EF751A /* Frameworks */,
+				F67946EF1EF706DB00EF751A /* Resources */,
+				3390204129350AAAE74F87A2 /* [CP] Embed Pods Frameworks */,
+				165FC529D752A30D8D3FCFEB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Picapp;
+			productName = Picapp;
+			productReference = F67946F11EF706DB00EF751A /* Picapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F67947041EF706DB00EF751A /* PicappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F679471C1EF706DC00EF751A /* Build configuration list for PBXNativeTarget "PicappTests" */;
+			buildPhases = (
+				F67947011EF706DB00EF751A /* Sources */,
+				F67947021EF706DB00EF751A /* Frameworks */,
+				F67947031EF706DB00EF751A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F67947071EF706DB00EF751A /* PBXTargetDependency */,
+			);
+			name = PicappTests;
+			productName = PicappTests;
+			productReference = F67947051EF706DB00EF751A /* PicappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F679470F1EF706DB00EF751A /* PicappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F679471F1EF706DC00EF751A /* Build configuration list for PBXNativeTarget "PicappUITests" */;
+			buildPhases = (
+				F679470C1EF706DB00EF751A /* Sources */,
+				F679470D1EF706DB00EF751A /* Frameworks */,
+				F679470E1EF706DB00EF751A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F67947121EF706DB00EF751A /* PBXTargetDependency */,
+			);
+			name = PicappUITests;
+			productName = PicappUITests;
+			productReference = F67947101EF706DB00EF751A /* PicappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F67946E91EF706DB00EF751A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Picapp Inc.";
+				TargetAttributes = {
+					F67946F01EF706DB00EF751A = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = G43CTLPBR8;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					F67947041EF706DB00EF751A = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F67946F01EF706DB00EF751A;
+					};
+					F679470F1EF706DB00EF751A = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F67946F01EF706DB00EF751A;
+					};
+				};
+			};
+			buildConfigurationList = F67946EC1EF706DB00EF751A /* Build configuration list for PBXProject "Picapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F67946E81EF706DB00EF751A;
+			productRefGroup = F67946F21EF706DB00EF751A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F67946F01EF706DB00EF751A /* Picapp */,
+				F67947041EF706DB00EF751A /* PicappTests */,
+				F679470F1EF706DB00EF751A /* PicappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F67946EF1EF706DB00EF751A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67946FF1EF706DB00EF751A /* LaunchScreen.storyboard in Resources */,
+				F67946FA1EF706DB00EF751A /* Main.storyboard in Resources */,
+				F6D480D91F2636BB00C8BE1D /* Assets.xcassets in Resources */,
+				F6203A7B1EF8CCCC009DA09E /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F67947031EF706DB00EF751A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F679470E1EF706DB00EF751A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B2863B7213549986529EC26 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		165FC529D752A30D8D3FCFEB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Picapp/Pods-Picapp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3390204129350AAAE74F87A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Picapp/Pods-Picapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F67946ED1EF706DB00EF751A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6D480C91F238AED00C8BE1D /* SettingsVC.swift in Sources */,
+				F6D480DB1F27F11E00C8BE1D /* FoodCell.swift in Sources */,
+				F6F642A11F448107007A0F67 /* MenuItemCell.swift in Sources */,
+				F6D480C31F22AD7B00C8BE1D /* SearchVC.swift in Sources */,
+				F66AB4701EFAA1AD00618B34 /* Constants.swift in Sources */,
+				F6D480F41F28F25800C8BE1D /* DataService.swift in Sources */,
+				F682B36E1F3C9C0500F4D558 /* FeedVC.swift in Sources */,
+				F682B3721F3CBC2500F4D558 /* RestaurantVC.swift in Sources */,
+				F6D480F61F2A5CAD00C8BE1D /* EditProfileVC.swift in Sources */,
+				F6F6429F1F447C2E007A0F67 /* MenuVC.swift in Sources */,
+				F605AC671F4BC8A2005488E1 /* NetworkingService.swift in Sources */,
+				F682B3701F3CBB5100F4D558 /* GroupCell.swift in Sources */,
+				F6D480DD1F27F13400C8BE1D /* RestaurantCell.swift in Sources */,
+				F6D480EB1F28220800C8BE1D /* LogoutCell.swift in Sources */,
+				F6D480ED1F28221E00C8BE1D /* AboutPicappCell.swift in Sources */,
+				F6D480E91F2810C200C8BE1D /* ActivityCell.swift in Sources */,
+				F682B36C1F3C973900F4D558 /* CategoryCell.swift in Sources */,
+				F6027F231F44A78900D74977 /* CategoryVC.swift in Sources */,
+				F6D480EF1F28223D00C8BE1D /* FeedbackCell.swift in Sources */,
+				F6027F1F1F449FB200D74977 /* ProfileVC.swift in Sources */,
+				F66AB4681EF953B300618B34 /* EmailVC.swift in Sources */,
+				F6D480F11F28225F00C8BE1D /* PrivacyCell.swift in Sources */,
+				F67F4CAA1F2BA8FD00AFEC1B /* EmailSignInVC.swift in Sources */,
+				F6D480D11F25387700C8BE1D /* ButtonView.swift in Sources */,
+				F6F642A71F449AE6007A0F67 /* ProfCell.swift in Sources */,
+				F67946F51EF706DB00EF751A /* AppDelegate.swift in Sources */,
+				F6D480CB1F238CF400C8BE1D /* DesignableView.swift in Sources */,
+				F66AB46D1EFAA0CD00618B34 /* DecoView.swift in Sources */,
+				F6D480C51F22ADEF00C8BE1D /* ActivityVC.swift in Sources */,
+				F69EB7FE1EFE4D68006AF288 /* SignInVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F67947011EF706DB00EF751A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F679470A1EF706DB00EF751A /* PicappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F679470C1EF706DB00EF751A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F67947151EF706DB00EF751A /* PicappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F67947071EF706DB00EF751A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F67946F01EF706DB00EF751A /* Picapp */;
+			targetProxy = F67947061EF706DB00EF751A /* PBXContainerItemProxy */;
+		};
+		F67947121EF706DB00EF751A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F67946F01EF706DB00EF751A /* Picapp */;
+			targetProxy = F67947111EF706DB00EF751A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F67946F81EF706DB00EF751A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F67946F91EF706DB00EF751A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F67946FD1EF706DB00EF751A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F67946FE1EF706DB00EF751A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F67947171EF706DC00EF751A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F67947181EF706DC00EF751A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F679471A1EF706DC00EF751A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83A79F454B9E7BD19735901A /* Pods-Picapp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Picapp/Picapp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = G43CTLPBR8;
+				INFOPLIST_FILE = Picapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pcp.Picapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F679471B1EF706DC00EF751A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DF3EB129CF06B4BABCCE8A8 /* Pods-Picapp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Picapp/Picapp.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = G43CTLPBR8;
+				INFOPLIST_FILE = Picapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pcp.Picapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F679471D1EF706DC00EF751A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PicappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pcp.PicappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Picapp.app/Picapp";
+			};
+			name = Debug;
+		};
+		F679471E1EF706DC00EF751A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PicappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pcp.PicappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Picapp.app/Picapp";
+			};
+			name = Release;
+		};
+		F67947201EF706DC00EF751A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PicappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pcp.PicappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Picapp;
+			};
+			name = Debug;
+		};
+		F67947211EF706DC00EF751A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PicappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pcp.PicappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Picapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F67946EC1EF706DB00EF751A /* Build configuration list for PBXProject "Picapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F67947171EF706DC00EF751A /* Debug */,
+				F67947181EF706DC00EF751A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F67947191EF706DC00EF751A /* Build configuration list for PBXNativeTarget "Picapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F679471A1EF706DC00EF751A /* Debug */,
+				F679471B1EF706DC00EF751A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F679471C1EF706DC00EF751A /* Build configuration list for PBXNativeTarget "PicappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F679471D1EF706DC00EF751A /* Debug */,
+				F679471E1EF706DC00EF751A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F679471F1EF706DC00EF751A /* Build configuration list for PBXNativeTarget "PicappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F67947201EF706DC00EF751A /* Debug */,
+				F67947211EF706DC00EF751A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F67946E91EF706DB00EF751A /* Project object */;
+}
